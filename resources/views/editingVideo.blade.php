@@ -48,15 +48,31 @@
     <!-- Breadcrumb Area End -->
 
     <!-- Our Speakings Area Start -->
-    <section class="our-speaker-area section-padding-100">
+    <section class="our-ticket-pricing-table-area section-padding-100">
         <div class="container">
             <div class="row">
-                <!-- Single Speaker Area -->
+                @foreach ($posts as $post)
+                <!-- Single Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('frontend') }}/img/FotoHOME/4_ Vlog.png"  alt="">
+                            <img src="{{ asset('editing_images/'. $post->image) }}"  alt="thumbnail" style="width: auto; height: auto; object-fit: cover;">
+                            <div class="col-12">
+                                <div class="more-speaker-btn text-center mt-20 wow fadeInUp" data-wow-delay="300ms">
+                                    <a class="btn confer-btn" href="{{ $post->link }}">watch<i class="#"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+                {{-- <!-- Single Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{{ asset('frontend') }}/img/FotoHOME/4_Vlog.png"  alt="">
                             <div class="col-12">
                                 <div class="more-speaker-btn text-center mt-20 wow fadeInUp" data-wow-delay="300ms">
                                     <a class="btn confer-btn" href="https://www.youtube.com/watch?v=6FVIaOCT634&t=1s">watch<i class="#"></i></a>
@@ -65,9 +81,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Speaker Area -->
+                <!-- Single Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/5_Profile.png" alt="">
@@ -79,9 +95,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Speaker Area -->
+                <!-- Single Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/6_Motion.png" alt="">
@@ -93,9 +109,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Speaker Area -->
+                <!-- Single Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/10_movie.png" alt="">
@@ -107,9 +123,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Speaker Area -->
+                <!-- Single Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/11_openers.png" alt="">
@@ -121,9 +137,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Speaker Area -->
+                <!-- Single Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/12_promotion.png" alt="">
@@ -134,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-12">
                     <div class="more-speaker-btn text-center mt-20 wow fadeInUp" data-wow-delay="300ms">
                         <a class="btn confer-btn" href="{{ url('contact') }}">Get Order <i class="zmdi zmdi-long-arrow-right"></i></a>

@@ -11,6 +11,9 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ asset('frontend') }}/img/core-img/favicon1.png">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -26,6 +29,11 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
+                @auth
+                    <a class="navbar-brand" href="{{ route('home') }}">Home</a>
+                    {{-- <a class="navbar-brand" href="{{ route('admin.user') }}">DataUser</a> --}}
+                    <a class="navbar-brand" href="{{ route('post.index') }}">Data Post</a>
+                @endauth
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>

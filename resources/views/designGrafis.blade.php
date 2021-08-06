@@ -53,7 +53,7 @@
             <div class="row">
                 <!-- Single Speaker Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/1_Logo.png" alt="">
@@ -62,7 +62,7 @@
                 </div>
                 <!-- Single Speaker Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/2_Banner.png" alt="">
@@ -71,7 +71,7 @@
                 </div>
                 <!-- Single Speaker Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/3_Fashion.png" alt="">
@@ -80,7 +80,7 @@
                 </div>
                 <!-- Single Speaker Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/8_labels.png" alt="">
@@ -89,7 +89,7 @@
                 </div>
                 <!-- Single Speaker Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/9_undangan.png" alt="">
@@ -98,7 +98,7 @@
                 </div>
                 <!-- Single Speaker Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-speaker-area wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
                             <img src="{{ asset('frontend') }}/img/FotoHOME/7_kemasan.png" alt="">

@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in!') }} <br>
+                    {{ __('Data Post : '. $post->count()) }}
                 </div>
             </div>
         </div>

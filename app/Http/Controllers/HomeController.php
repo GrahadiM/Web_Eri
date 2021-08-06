@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -25,7 +26,8 @@ class HomeController extends Controller
     public function index(Request $request)
     {
         if (auth()->user()->role_id == 1) {
-            return view('home');
+            $post = Post::all();
+            return view('home', compact('post'));
         }
         elseif (auth()->user()->role_id == 2) {
             return redirect('/');
